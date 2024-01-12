@@ -1,1 +1,5 @@
+
 Test file Master Conflict
+
+Test file Branch1 Conflict
+
