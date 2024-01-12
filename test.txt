@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 Test file Branch1 Conflict
 Test file Master Conflict
+=======
+Rebase conflict master
+>>>>>>> 2f3551b (Rebase master commit)
