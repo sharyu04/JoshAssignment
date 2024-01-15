@@ -1,0 +1,7 @@
+1. What is cherry-pick? Explain the use case of it also write steps to do it.
+
+Cherry-pick in git is used to select a particular commit and append it to the current working head. Cherry pick can be used to pick a commit from a branch and apply it to another branch instead of merging the entire branch. This can be one of the usecase of cherry-pick where wish to merge just one commit and not the entire branch. One more usecase can be if the commit is accidentely made to a wrong branch, you can cherry pick it and add it to the correct branch.
+Steps to cherry pick :
+1. Get the SHA of the commit you need to cherry pick using " git log " command
+2. Checkout to the branch where you wish to append the commit. In this case let us consider master branch. Hence use the " git checkout master " command
+3. Use the command " git cherry-pick <SHA> " where SHA is the SHA of the commit that we retrived earlier.
