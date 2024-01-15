@@ -1,1 +1,6 @@
 6. How to unstage changes from the staged area. Write command for it.
+
+The command to unstage changes from the staged area is "git reset". It unstages all changes, reverts the staging area to the state of the last commit without altering the working directory.
+"git restore –staged file-to-unstage.txt", "git reset file-to-unstage.txt" are the commands to unstage particular files.
+
+
